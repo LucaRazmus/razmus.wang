@@ -2,6 +2,7 @@ version: "2"
 services:
   wang:
     build: .
+    image: lucarazmus/razmus.wang
     ports:
       - '4352:80'
     volumes:
